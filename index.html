@@ -4,27 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600&family=Raleway:wght@700;800&family=Roboto:wght@400;500;700;900&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+    <link rel="stylesheet" href="./css/styles.css" >
 </head>
 <body>
- <header>
+     <!-- HEADER -->
+     <header class="header">
     <a href="/index.html"><img src="./images/vector.svg" alt="logo" width: 66px;
         height: 52px;></a>
-    <nav> 
- <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href=""></a>Service</li>
-            <li><a href=""></a>Menu</li>
-            <li><a href=""></a>Contact</li>
+        <nav class="navigation-container">
+            <ul class="navigation-list">
+                <li><a class="menu" href="./index.html">Home</a></li>
+                <li><a class="menu" href="">About</a></li>
+                <li><a class="menu" href="">Service</li>
+                    <li><a class="menu" href="">Menu</li>
+                        <li><a class="menu" href="">Contact</li>
         </ul>
     </nav>
     <button type="button">Order Now</button>
  </header>
+
+  <!-- MAIN -->
 <main>
-    <section>
-        <h1>Enjoy Your Favorite Food From Anywhere</h1>
-        <p>With just a few clicks, you can have your favorite meals delivered straight to your doorstep, no matter where you are. Order now and enjoy a hassle-free and delicious meal from the comfort of your own home.</p>
+    <!-- SECTION 1 -->
+    <section class="main">
+        <h1 class="main-title">Enjoy Your Favorite Food From Anywhere</h1>
+        <p class= "main-text">With just a few clicks, you can have your favorite meals delivered straight to your doorstep, no matter where you are. Order now and enjoy a hassle-free and delicious meal from the comfort of your own home.</p>
         <button type="button">Order Now</button><img src="./images/hero.png" alt="salad" width: 528px;
+        height: 528px;></section>
+         <!-- SECTION 2 -->
+    <section class="section-two">
+        <h2 class="section-two-title">What’s Special About Our Offerings</h2>
+        <p class= "section-two-main-text">With our platform, you can browse through a diverse selection of cuisines and local restaurants, and choose from a variety of dishes that cater to your specific taste buds.</p>
+        <button type="button">Order Now</button><img src="./images/aple.png" alt="salad" width: 528px;
         height: 528px;></section>
 </main>
 </body>
